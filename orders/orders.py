@@ -43,12 +43,12 @@ class Orders:
         orders_page_header.place(x = 410, y = 20)
 
         def go_to_add_order():
-            from AddOrder import Add_Order
+            from orders.add_order import Add_Order
             orders_page.destroy()
             Add_Order().main()
 
         def go_to_edit_order():
-            from EditOrder import Edit_Order
+            from orders.edit_order import Edit_Order
             orders_page.destroy()
             Edit_Order().main()
 

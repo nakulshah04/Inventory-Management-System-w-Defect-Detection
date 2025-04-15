@@ -36,22 +36,22 @@ class Menu:
         menu_page_header.place(x = 420, y = 80)
 
         def go_to_orders():
-            from Orders import Orders
+            from orders.orders import Orders
             menu.destroy()
             Orders().main()
         
         def go_to_employees():
-            from Employee import Employee
+            from employees.employee import Employee
             menu.destroy()
             Employee().main()
 
         def go_to_products():
-            from Product import Product
+            from products.product import Product
             menu.destroy()
             Product().main()
 
         def go_to_defect_check():
-            from retrialll import Defect_Check
+            from defect_detection.defect_check import Defect_Check
             menu.destroy()
             Defect_Check().main()
 
@@ -84,7 +84,7 @@ class Menu:
         employees_btn.place(x = 350, y = 360)
 
         def sign_out():
-            from Login import Login
+            from auth.login import Login
             menu.destroy()
             Login().main()
 
