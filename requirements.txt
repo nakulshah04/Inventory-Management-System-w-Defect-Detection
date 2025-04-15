@@ -1,0 +1,12 @@
+# GUI
+Pillow
+
+# Database
+# Note: Built-in with Python, no need to install, listed for reference
+sqlite3
+
+# Image Processing & ML
+opencv-python
+tensorflow
+keras
+numpy
